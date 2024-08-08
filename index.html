@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Piano</title>
+</head>
+<body>
+    <div class="keys">
+        <div data-key="68" class="key">
+            <kbd>D</kbd>
+            <span class="sound">Do</span>
+        </div>
+        <div data-key="82" class="key">
+            <kbd>R</kbd>
+            <span class="sound">Re</span>
+        </div>
+        <div data-key="77" class="key">
+            <kbd>M</kbd>
+            <span class="sound">Mi</span>
+        </div>
+        <div data-key="70" class="key">
+            <kbd>F</kbd>
+            <span class="sound">Fa</span>
+        </div>
+        <div data-key="83" class="key">
+            <kbd>S</kbd>
+            <span class="sound">Sol</span>
+        </div>
+        <div data-key="76" class="key">
+            <kbd>L</kbd>
+            <span class="sound">La</span>
+        </div>
+        <div data-key="73" class="key">
+            <kbd>I</kbd>
+            <span class="sound">Si</span>
+        </div>
+    </div>
+    <audio data-key="68" src="./assets/sounds/316899__jaz_the_man_2__do-stretched.wav"></audio>
+    <audio data-key="82" src="./assets/sounds/316909__jaz_the_man_2__re-stretched.wav"></audio>
+    <audio data-key="77" src="./assets/sounds/316907__jaz_the_man_2__mi-stretched.wav"></audio>
+    <audio data-key="70" src="./assets/sounds/316905__jaz_the_man_2__fa-stretched.wav"></audio>
+    <audio data-key="83" src="./assets/sounds/316911__jaz_the_man_2__sol-stretched.wav"></audio>
+    <audio data-key="76" src="./assets/sounds/316903__jaz_the_man_2__la-stretched.wav"></audio>
+    <audio data-key="73" src="./assets/sounds/316910__jaz_the_man_2__si-stretched.wav"></audio>
+    <script src="drumKit.js"></script>
+</body>
+</html>
